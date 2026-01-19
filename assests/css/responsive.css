@@ -72,3 +72,409 @@
     visibility: hidden;
   }
 } */
+
+@media (max-width: 1385px) {
+  .box1 {
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+  }
+  .firstconatiner {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: cover; /* important */
+    background-position: center; /* important */
+  }
+
+  .iconsborder {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+  }
+  .iconscolor {
+    color: black !important;
+  }
+  .textLogin {
+    padding-top: 5px;
+  }
+  /* .bannerConatiner {
+    margin-top: 30px;
+  } */
+  .sdfsdf img {
+    transform: scale(1.2);
+  }
+}
+
+@media (max-width: 580px) {
+  .box1 {
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+  }
+  .firstconatiner {
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: cover; /* important */
+    background-position: center; /* important */
+  }
+  /* .socialMenusGrid {
+    background: linear-gradient(#06065c, #78042f, #ed0101);
+  } */
+  .titleheader {
+    font-size: 14px;
+    font-weight: bold;
+    color: #06065c;
+  }
+  .titlesmallcontent {
+    font-size: 10px;
+    font-weight: bold;
+    color: #06065c;
+  }
+  .iconsborder {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 7px;
+  }
+  .iconscolor {
+    color: black !important;
+  }
+  .textLogin {
+    padding-top: 5px;
+  }
+  /* .bannerConatiner {
+    margin-top: 51px;
+  } */
+  .box2 p {
+    color: white;
+    font-weight: bold;
+    white-space: normal;
+    font-size: 14px;
+  }
+  .titleBannwe3 {
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .wordingsContent {
+    font-size: 14px;
+  }
+  .titleBannwe4 {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .cardCoontainer4 .heading {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    margin: 0; /* optional */
+  }
+  .cardCoontainer4 .smallheading {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin: 0; /* optional */
+  }
+  .cardCoontainer4 .paracontent {
+    font-size: 14px;
+    color: white;
+  }
+  .bannerContainerTitle5 {
+    color: red;
+    font-weight: bold;
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-transform: uppercase;
+  }
+  .DefenceTitle {
+    color: #06065c;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    border-bottom: 1px solid #06065c;
+    padding-bottom: 5px;
+  }
+  ul li {
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  .btntitle {
+    font-weight: bold;
+    color: red;
+    font-size: 12px;
+  }
+  .responsive-img {
+    width: 70%;
+  }
+  .sdfsdf img {
+    transform: scale(1.2);
+  }
+  .containerTitlePlatform .platformtitle {
+    font-family: "Manrope", sans-serif !important;
+    text-transform: uppercase;
+
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+  }
+  .supportConatiner .platformtitle {
+    font-family: "Manrope", sans-serif !important;
+    text-transform: uppercase;
+
+    font-weight: bold;
+    font-size: 25px;
+    color: red;
+  }
+  .Organisation .platformtitle {
+    font-family: "Manrope", sans-serif !important;
+    text-transform: uppercase;
+
+    font-weight: bold;
+    font-size: 25px;
+    color: red;
+  }
+  .oraganisationcontent {
+    font-size: 14px;
+  }
+  .footerAddress {
+    font-size: 17px;
+    color: white;
+    text-transform: uppercase;
+  }
+  .UsefulLiks {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+  }
+  .footerpara {
+    color: white;
+    font-size: 14px;
+  }
+  .cpyrightpara {
+    color: white;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 470px) {
+  .box1 {
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+  }
+  .firstconatiner {
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: cover; /* important */
+    background-position: center; /* important */
+  }
+  /* .socialMenusGrid {
+    background: linear-gradient(#06065c, #78042f, #ed0101);
+  } */
+  .titleheader {
+    font-size: 8px !important;
+    font-weight: bold;
+    color: #06065c;
+
+    word-break: break-word;
+    word-wrap: break-word;
+    white-space: normal;
+    overflow-wrap: break-word;
+  }
+  .titlesmallcontent {
+    font-size: 8px !important;
+    font-weight: bold;
+    color: #06065c;
+  }
+  .iconsborder {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 7px;
+  }
+  .iconscolor {
+    color: black !important;
+  }
+  .textLogin {
+    padding-top: 5px;
+  }
+  /* .bannerConatiner {
+    margin-top: 57px;
+  } */
+
+  /* DEFAULT: Mobile safe */
+  .box2 p {
+    color: white;
+    font-weight: bold;
+    white-space: normal;
+    font-size: 12px;
+  }
+
+  .titleBannwe3 {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .wordingsContent {
+    font-size: 12px;
+  }
+  .titleBannwe4 {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .cardCoontainer4 .heading {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin: 0; /* optional */
+  }
+  .cardCoontainer4 .smallheading {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    margin: 0; /* optional */
+  }
+  .cardCoontainer4 .paracontent {
+    font-size: 14px;
+    color: white;
+  }
+  .bannerContainerTitle5 {
+    color: red;
+    font-weight: bold;
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-transform: uppercase;
+  }
+
+  .DefenceTitle {
+    color: #06065c;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    border-bottom: 1px solid #06065c;
+    padding-bottom: 5px;
+  }
+  ul li {
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+  .btntitle {
+    font-weight: bold;
+    color: red;
+    font-size: 12px;
+  }
+  .containerTitlePlatform .platformtitle {
+    font-family: "Manrope", sans-serif !important;
+    text-transform: uppercase;
+
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+  }
+  .responsive-img {
+    width: 70%;
+  }
+  .sdfsdf img {
+    transform: scale(1.2);
+  }
+  .supportConatiner .platformtitle {
+    font-family: "Manrope", sans-serif !important;
+    text-transform: uppercase;
+
+    font-weight: bold;
+    font-size: 20px;
+    color: red;
+  }
+  .Organisation .platformtitle {
+    font-family: "Manrope", sans-serif !important;
+    text-transform: uppercase;
+
+    font-weight: bold;
+    font-size: 20px;
+    color: red;
+  }
+  .oraganisationcontent {
+    font-size: 14px;
+  }
+  .footerAddress {
+    font-size: 17px;
+    color: white;
+    text-transform: uppercase;
+  }
+  .UsefulLiks {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+  }
+  .footerpara {
+    color: white;
+    font-size: 14px;
+  }
+  .cpyrightpara {
+    color: white;
+    font-size: 14px;
+  }
+}
+@media (max-width: 753px) {
+  .box1 {
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+  }
+  .titleheader {
+    font-size: 14px;
+    font-weight: bold;
+    color: #06065c;
+
+    word-break: break-word;
+    word-wrap: break-word;
+    white-space: normal;
+    overflow-wrap: break-word;
+  }
+  .titlesmallcontent {
+    font-size: 10px;
+    font-weight: bold;
+    color: #06065c;
+  }
+ 
+}

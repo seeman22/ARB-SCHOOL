@@ -1,6 +1,6 @@
-<div class="bannerConatiner">
-    <div class="container box2 d-flex flex-wrap justify-content-center gap-5 py-3 px-2">
-        <p class="mb-0">Home</p>
+<div class="bannerConatiner d-none d-lg-flex">
+    <div class="container box2 d-flex flex-wrap justify-content-center gap-5 py-3 px-2 d-md-flex">
+        <p class="mb-0 ">Home</p>
         <p class="mb-0">Team</p>
         <p class="mb-0">Program</p>
         <p class="mb-0">Innovation</p>
@@ -20,7 +20,7 @@
         <img src="../assests/images/backgroundImgBanner.png" alt="Banner Background">
         <div class="InnerImgContent">
             <div class="container ">
-                <div class="row w-100 sdfsdfdsf g-3">
+                <div class="row  sdfsdfdsf g-3">
                     <div class="col-lg-9 photoimgbanner1">
                         <div>
                             <img src="../assests/images/bannerphoto1.png" class="img-fluid w-100" />
@@ -43,12 +43,14 @@
 
 </div>
 <div class="bannerContainer2">
-    <div class="container-fluid d-flex justify-content-center  py-4 px-2">
-        <p class="paracontent">
-            23rd Edition – AGRI INTEX 2025 India’s Prime Agricultural Trade Fair by CODISSIA Thu, 10 Jul, 2025 at 10:00 am - Mon, 14 Jul, 2025 at 023rd Edition – AGRI INTEX 2025 India’s Prime Agricultural Trade Fair by CODISSIA Thu, 10 Jul, 2025 at 10:00 am - Mon, 14 Jul, 2025 at 0
-        </p>
-    </div>
+  <div class="container-fluid d-flex justify-content-center
+              p-4 p-lg-2">
+    <p class="paracontent">
+      23rd Edition – AGRI INTEX 2025 India’s Prime Agricultural Trade Fair by CODISSIA Thu, 10 Jul, 2025 at 10:00 am - Mon, 14 Jul, 2025 at 023rd Edition – AGRI INTEX 2025 India’s Prime Agricultural Trade Fair by CODISSIA Thu, 10 Jul, 2025 at 0
+    </p>
+  </div>
 </div>
+
 
 
 <div class="bannerConatiner3 mt-3">
@@ -57,7 +59,7 @@
         <div class="row">
             <div class="col-lg-4">
 
-                <img src="../assests//images/Group 41.png" class="img-fluid w-100" />
+                <img src="../assests//images/Group 61.png" class="img-fluid w-100" />
 
             </div>
 
@@ -65,8 +67,8 @@
                 <p class="titleBannwe3">CODISSIA Defence Innovation and
                     Atal Incubation Centre (CDIIC)</p>
 
-                <p class="wordingsContent">CODISSIA Defence Innovation and Atal Incubation Centre (CDIIC) is a not-for-profit Section 8 company established under the Companies Act, 2013 on 10th January, 2019 by its founding association – CODISSIA (The Coimbatore District Small Industries Association) in Coimbatore, Tamil Nadu. It is supported by Atal Innovation Mission, NITI Aayog and Ministry of Defence, Government of India.</p>
-                <p class="wordingsContent">Coimbatore is one of the five nodal points of the Southern Corridor identified for the development of the Defence Sector. CDIIC is the first Defence Innovation Hub to be set up in India, following the announcement of the Defence Innovation Organisation set up under iDEX (Innovations for Defence Excellence). CDIIC is also one of the Atal Incubation Centres established under the Atal Innovation Mission.</p>
+                <p class="wordingsContent p-2 p-lg-0">CODISSIA Defence Innovation and Atal Incubation Centre (CDIIC) is a not-for-profit Section 8 company established under the Companies Act, 2013 on 10th January, 2019 by its founding association – CODISSIA (The Coimbatore District Small Industries Association) in Coimbatore, Tamil Nadu. It is supported by Atal Innovation Mission, NITI Aayog and Ministry of Defence, Government of India.</p>
+                <p class="wordingsContent p-2 p-lg-0">Coimbatore is one of the five nodal points of the Southern Corridor identified for the development of the Defence Sector. CDIIC is the first Defence Innovation Hub to be set up in India, following the announcement of the Defence Innovation Organisation set up under iDEX (Innovations for Defence Excellence). CDIIC is also one of the Atal Incubation Centres established under the Atal Innovation Mission.</p>
 
             </div>
 
@@ -84,10 +86,10 @@
                 <div class="tabsSty">
 
                     <div class="bgcolorTabs">
-                        <p>New Announcement</p>
+                        <p class="wordingsContent">New Announcement</p>
                     </div>
                     <div class=" bgcolorTabs2">
-                        <p>Events</p>
+                        <p class="wordingsContent">Events</p>
                     </div>
                 </div>
 
@@ -205,7 +207,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-6 ">
+<div class="col-lg-6 mt-3 mt-lg-0">
             <img src="../assests/images/Mask group (1).png" class="img-fluid w-100 h-75" />
         </div>
 
@@ -222,30 +224,30 @@
 
     <div class="container mt-5 mb-5">
         <div class="row gap-5 ">
-            <div class="col-lg-2">
-                <div>
-                    <img src="../assests//images/Group 48.png" class="img-fluid" />
+<div class="col-lg-2 d-flex justify-content-center">
+                
+                    <img src="../assests//images/Group 48.png" class="img-fluid responsive-img" />
+                
+            </div>
+<div class="col-lg-2 d-flex justify-content-center">
+                <div class="sdfsdf d-flex justify-content-center">
+                    <img src="../assests//images/Group 52.png" class="img-fluid responsive-img" />
                 </div>
             </div>
-            <div class="col-lg-2">
-                <div class="sdfsdf">
-                    <img src="../assests//images/Group 52.png" class="img-fluid" />
-                </div>
+<div class="col-lg-2 d-flex justify-content-center">
+                
+                    <img src="../assests//images/Group 54.png" class="img-fluid responsive-img" />
+                
             </div>
-            <div class="col-lg-2">
-                <div>
-                    <img src="../assests//images/Group 54.png" class="img-fluid" />
-                </div>
+<div class="col-lg-2 d-flex justify-content-center">
+                
+                    <img src="../assests//images/Group 58.png" class="img-fluid responsive-img" />
+            
             </div>
-            <div class="col-lg-2">
-                <div>
-                    <img src="../assests//images/Group 58.png" class="img-fluid" />
-                </div>
-            </div>
-            <div class="col-lg-2">
-                <div>
-                    <img src="../assests//images/Group 60.png" class="img-fluid" />
-                </div>
+<div class="col-lg-2 d-flex justify-content-center">
+            
+                    <img src="../assests//images/Group 60.png" class="img-fluid responsive-img" />
+                
             </div>
         </div>
 
@@ -258,7 +260,7 @@
 </div>
 <div class="container mt-5">
     <div class="row ">
-        <div class="col-lg-5 styleimgcontainer">
+        <div class="col-lg-5 d-flex justify-content-center justify-content-lg-end align-items-center">
             <img src="../assests/images/freepik__an-indian-man-35-years-old-black-hair-in-a-suit-po__93024 1.png" class="img-fluid h-75" />
         </div>
         <div class="col-lg-7">
@@ -283,7 +285,7 @@
 
 
     <div>
-        <p>CODISSIA - The Coimbatore District Small Industries Association - is one of the largest Association for Micro, Small and Medium Enterprises in India, having come a long way since its inception in the year 1969, with about 40 members, today CODISSIA is having more than 6600 members from different sectors. CODISSIA is celebrating its Golden Jubilee Year with NABET Accreditation.<br>CODISSIA has been consistently organizing Entrepreneur Development Program on all Fridays, since the past 40 years, without any break. It gives counselling to budding as well as existing entrepreneurs, provides necessary hand holding, assist them in getting loans, suggests ways and means to successfully market their product, monitor their progress, and rests only after they get stabilized. All these services are extended Free of Cost by senior and successful members of CODISSIA who devote their time, knowledge and expertise to ensure that these budding entrepreneurs graduate.<br>The Make in India call of the government of India, fuelled the thought of venturing into Defence indigenization, which formed the basis of setting up of a Defence Innovation Centre at Coimbatore. CODISSIA took the lead and showcased its manufacturing capability at all possible avenues to the Armed Forces and also to the DPSUs. In addition, about 2000 members of CODISSIA propose to join hands and form one single integrator company which will bid for defence supplies. Once the order is bagged, its members would pitch in to manufacture the said component / product and supply to the defence forces. This will not only ensure adequacy of manufacturing prowess but also result in huge savings in terms of foreign exchange, through import substitution.</p>
+        <p class="oraganisationcontent p-2 p-lg-0">CODISSIA - The Coimbatore District Small Industries Association - is one of the largest Association for Micro, Small and Medium Enterprises in India, having come a long way since its inception in the year 1969, with about 40 members, today CODISSIA is having more than 6600 members from different sectors. CODISSIA is celebrating its Golden Jubilee Year with NABET Accreditation.<br>CODISSIA has been consistently organizing Entrepreneur Development Program on all Fridays, since the past 40 years, without any break. It gives counselling to budding as well as existing entrepreneurs, provides necessary hand holding, assist them in getting loans, suggests ways and means to successfully market their product, monitor their progress, and rests only after they get stabilized. All these services are extended Free of Cost by senior and successful members of CODISSIA who devote their time, knowledge and expertise to ensure that these budding entrepreneurs graduate.<br>The Make in India call of the government of India, fuelled the thought of venturing into Defence indigenization, which formed the basis of setting up of a Defence Innovation Centre at Coimbatore. CODISSIA took the lead and showcased its manufacturing capability at all possible avenues to the Armed Forces and also to the DPSUs. In addition, about 2000 members of CODISSIA propose to join hands and form one single integrator company which will bid for defence supplies. Once the order is bagged, its members would pitch in to manufacture the said component / product and supply to the defence forces. This will not only ensure adequacy of manufacturing prowess but also result in huge savings in terms of foreign exchange, through import substitution.</p>
     </div>
 
 
@@ -341,21 +343,21 @@
                     </div>
                 </div>
 
-                <div class="row gap-3">
-                    <div class="col-lg-1">
-                        <div class="iconsborder">
-                            <i class="bi bi-twitter-x iconscolor"></i>
+                <div class="row ">
+                    <div class="col-2 col-md-2 ">
+                        <div class="iconsborder1">
+                            <i class="bi bi-twitter-x iconscolor1"></i>
                         </div>
                     </div>
-                    <div class="col-lg-1">
-                        <div class="iconsborder">
-                            <i class="bi bi-facebook iconscolor"></i>
+                    <div class="col-2 col-md-2">
+                        <div class="iconsborder1">
+                            <i class="bi bi-facebook iconscolor1"></i>
 
                         </div>
                     </div>
-                    <div class="col-lg-1">
-                        <div class="iconsborder">
-                            <i class="bi bi-instagram iconscolor"></i>
+                    <div class="col-2 col-md-2">
+                        <div class="iconsborder1">
+                            <i class="bi bi-instagram iconscolor1"></i>
                         </div>
                     </div>
                 </div>
@@ -373,15 +375,32 @@
                     <p>Download News Letter</p>
                 </div>
 
-                <!-- <div class="emailInput pt-2">
-                    <p class="spaceletter">Download News Letter</p>
-                    <div class="redarrow">
-                        <p class="leftarrow">></p>
-                    </div>
-                </div> -->
+             <div class="subscriptioninbox">
+                   <div class="emailInput">
+                            <p class="spaceletter"></p>
+                    <p class="spaceletter">Subscription Email Letter</p>
+                   
+                
+                </div>
+                 <img src="../assests/images/Group 29.png" class="img-fluid h-75 pt-2"/>
+             </div>
             </div>
 
         </div>
+
+
+   <div class="row   d-flex justify-content-between align-items-center py-2 pb-5">
+  <!-- Left Column -->
+  <div class="col-12  col-lg-6 d-flex align-items-center">
+    <p class="cpyrightpara mb-0">Copyright © 2020 CDIIC. All rights reserved.</p>
+  </div>
+
+  <!-- Right Column -->
+  <div class="col-12 col-lg-6 d-flex justify-content-lg-start justify-content-lg-end  align-items-center pt-2 pt-lg-0">
+    <p class="cpyrightpara mb-0">Privace & Policy - Terms - About us - FAQ</p>
+  </div>
+</div>
+
     </div>
 
 </div>

@@ -156,7 +156,6 @@ body {
 }
 
 .firstconatiner {
-  height: 120px;
   display: flex;
   align-items: center;
   width: 100%;
@@ -199,12 +198,7 @@ body {
   /* justify-content: space-between; */
   align-items: center;
 }
-.socialList {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* background-color: #00aff0; */
-}
+
 .iconsborder {
   border-radius: 50%;
   height: 40px;
@@ -228,7 +222,7 @@ body {
 /* DEFAULT: Mobile safe */
 .box2 p {
   color: white;
-  font-weight: 600;
+  font-weight: bold;
   white-space: normal; /* ✅ allow wrap on mobile */
 }
 
@@ -432,9 +426,6 @@ ul li {
   align-items: center;
 }
 
-.sdfsdf img {
-  transform: scale(1.2);
-}
 .supportConatiner {
   display: flex;
   align-items: center;
@@ -509,15 +500,17 @@ ul li {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 10px;
   color: white;
-  width: 350px;
+  width: 320px;
   margin-top: 10px;
-  position: relative;
-  width: 350px;
-  height: 50px;
+  padding: 9px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
 }
-.redarrow {
+.subscriptioninbox {
+  display: flex;
+}
+/* .redarrow {
   position: absolute;
   left: 320px;
   width: 50px;
@@ -531,10 +524,43 @@ ul li {
 .leftarrow {
   color: white;
   font-size: 35px;
-}
+} */
 .spaceletter {
   color: grey;
-}
-.spaceletter p {
   margin: 0;
+}
+
+.containerTitlePlatform .platformtitle {
+  font-family: "Manrope", sans-serif !important;
+  text-transform: uppercase;
+
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+.cpyrightpara {
+  color: white;
+}
+.iconsborder1 {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+.iconscolor1 {
+  color: white !important;
+}
+.togglecolor {
+  background-color: #06065c !important;
+}
+.toggleexit {
+  background-color: white !important;
+}
+.big-menu-icon {
+  font-size: 25px !important; /* increase as needed */
+  cursor: pointer;
 }
