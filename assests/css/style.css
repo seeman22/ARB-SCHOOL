@@ -1,10 +1,540 @@
-* {
+/* * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-.header {
+.firstconatiner {
   height: 120px;
-  background-color: brown;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
   width: 100%;
+}
+.container {
+  background-color: white;
+  height: 50px;
+}
+@font-face {
+  font-family: "Manrope";
+  src: url("../../Manrope-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+body {
+  font-family: "Manrope", sans-serif;
+}
+
+.titlecontent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logoimg {
+  height: 108px;
+  width: 113px;
+  background-size: cover;
+  margin-top: 10px;
+  margin-left: 100px;
+  background-color: #ed0101;
+}
+.titleheader {
+  font-size: 24px;
+  font-weight: bold;
+  color: #06065c;
+  line-height: 0;
+  word-break: break-word;
+  word-wrap: break-word;
+  white-space: normal; 
+  overflow-wrap: break-word; 
+}
+.titlesmallcontent {
+  font-size: 14px;
+  font-weight: bold;
+  color: #06065c;
+}
+.socialmenus {
+  background: linear-gradient(#06065c, #78042f, #ed0101);
+  position: relative;
+  overflow: hidden;
+
+}
+
+.imgvector {
+  position: absolute;
+  z-index: 2;
+  object-fit: cover;
+  top: 0%;
+  left: -1%;
+}
+.socialList {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconsborder {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+.iconscolor {
+  color: white !important;
+}
+.textLogin {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-top: 8px;
+}
+.navbarmenubg {
+  background-color: #06065c !important;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.para {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.bgBannerImgSec {
+  position: relative;
+  object-fit: cover;
+  width: 100%;
+  overflow: hidden;
+}
+.InnerImgContent {
+  position: absolute;
+  height: 50px;
+  width: 100%;
+  z-index: 2;
+  top: 250px;
+}
+.innerbanner {
+  padding-left: 50px;
+  padding-right: 50px;
+  
+}
+
+.imgbanner2 {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100px;
+  width: 100%;
+}
+
+.photoimgbanner1 {
+  padding-top: 50px;
+}
+.dsdsd {
+  background-color: #00aff0;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+} */
+@font-face {
+  font-family: "Manrope";
+  src: url("../fonts/Manrope-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+body {
+  font-family: "Manrope", sans-serif !important;
+}
+
+.firstconatiner {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+
+  background-image: url("../images/Group\ 35.png");
+  background-repeat: no-repeat;
+  background-size: cover; /* important */
+  background-position: center; /* important */
+}
+
+.logoimg {
+  margin-left: 30px;
+}
+.titleheader {
+  font-size: 24px;
+  font-weight: bold;
+  color: #06065c;
+
+  word-break: break-word;
+  word-wrap: break-word;
+  white-space: normal;
+  overflow-wrap: break-word;
+}
+.titlesmallcontent {
+  font-size: 14px;
+  font-weight: bold;
+  color: #06065c;
+}
+.imgdjbfisdfgd {
+  /* background-color: red; */
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.box1 {
+  /* background-color: yellow; */
+  height: 120px;
+  width: 100%;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+.socialList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #00aff0; */
+}
+.iconsborder {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+.iconscolor {
+  color: white !important;
+}
+.textLogin {
+  padding-top: 5px;
+}
+.bannerConatiner {
+  background-color: #06065c;
+}
+
+/* DEFAULT: Mobile safe */
+.box2 p {
+  color: white;
+  font-weight: 600;
+  white-space: normal; /* ✅ allow wrap on mobile */
+}
+
+.bgBannerImgSec {
+  position: relative;
+  object-fit: cover;
+  width: 100%;
+  overflow: hidden;
+}
+.InnerImgContent {
+  position: absolute;
+  height: 50px;
+  width: 100%;
+  z-index: 2;
+  top: 50px;
+}
+.innerbanner {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.imgbanner2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+}
+
+.photoimgbanner1 {
+  padding-top: 50px;
+}
+
+.bannerContainer2 {
+  background-color: #00aff0;
+}
+.paracontent {
+  color: white;
+  font-size: 12px;
+}
+.ddgdfg {
+  background-color: red;
+}
+.dfgdfgdfg {
+  background-color: red;
+}
+.titleBannwe3 {
+  color: red;
+  font-size: 30px;
+  font-weight: bold;
+}
+.wordingsContent {
+  font-size: 18px;
+}
+.bannerConatiner4 {
+  width: 100%;
+  background-image: url("../images/Group\ 42.png") !important;
+  background-size: cover; /* cover whole div */
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Inner1Container4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tabsSty {
+  background-color: white;
+  border-radius: 25px;
+  display: flex;
+  width: 300px;
+
+  align-items: center; /* optional safety */
+}
+
+.bgcolorTabs {
+  background-color: red;
+  color: white;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  padding: 10px;
+}
+
+.bgcolorTabs2 {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.tabsSty p {
+  margin: 0;
+}
+.sfgs {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.titleBannwe4 {
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+}
+.cardCoontainer4 {
+  background-color: #00aff0;
+  border-radius: 10px;
+}
+
+.cardCoontainer4 .heading {
+  font-size: 35px;
+  font-weight: bold;
+  color: white;
+  margin: 0; /* optional */
+}
+.cardCoontainer4 .smallheading {
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  margin: 0; /* optional */
+}
+.cardCoontainer4 .paracontent {
+  font-size: 20px;
+  color: white;
+}
+.gfdgdfg {
+  background-color: red;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bannerContainerTitle5 {
+  color: red;
+  font-weight: bold;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-transform: uppercase;
+}
+.brandimg {
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.DefenceTitle {
+  color: #06065c;
+  font-size: 30px;
+  font-weight: bold;
+  display: inline-block;
+  border-bottom: 2px solid #06065c;
+  padding-bottom: 10px;
+}
+
+ul li {
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+.btnread {
+  /* background-color: red; */
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.Btn {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.Btn p {
+  margin: 0;
+}
+.btntitle {
+  font-weight: bold;
+  color: red;
+}
+.BannerContainer6 {
+  width: 100%;
+  background-image: url("../images/Group\ 47.png") !important;
+  background-size: cover; /* cover whole div */
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.containerTitlePlatform {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sdfsdf img {
+  transform: scale(1.2);
+}
+.supportConatiner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.supportConatiner .platformtitle {
+  font-family: "Manrope", sans-serif !important;
+  text-transform: uppercase;
+
+  font-weight: bold;
+  font-size: 40px;
+  color: red;
+}
+.styleimgcontainer {
+  display: flex;
+  justify-content: end;
+}
+.Organisation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.Organisation .platformtitle {
+  font-family: "Manrope", sans-serif !important;
+  text-transform: uppercase;
+
+  font-weight: bold;
+  font-size: 40px;
+  color: red;
+}
+.footcontainer {
+  width: 100%;
+  background-image: url("../images/Group\ 67.png") !important;
+  background-size: cover; /* cover whole div */
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+.footerAddress {
+  font-size: 20px;
+  color: white;
+  text-transform: uppercase;
+}
+.UsefulLiks {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  display: inline-block;
+  border-bottom: 2px solid white;
+  padding-bottom: 10px;
+}
+.footerpara {
+  color: white;
+  font-size: 18px;
+}
+.downloadNewsLetter {
+  background-color: #00aff0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  color: white;
+  width: 250px;
+}
+.downloadNewsLetter p {
+  margin: 0;
+}
+.emailInput {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  color: white;
+  width: 350px;
+  margin-top: 10px;
+  position: relative;
+  width: 350px;
+  height: 50px;
+}
+.redarrow {
+  position: absolute;
+  left: 320px;
+  width: 50px;
+  height: 52px;
+  width: 60px;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.leftarrow {
+  color: white;
+  font-size: 35px;
+}
+.spaceletter {
+  color: grey;
+}
+.spaceletter p {
+  margin: 0;
 }

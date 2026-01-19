@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-        <?php include('./includes/head.php'); ?>
+        <?php include ('./includes/head.php'); ?>
 
 </head>
 <body>
-        <?php include('./includes/header.php'); ?>
 
+        <?php include ('./includes/headerNext.php'); ?>
+
+        <?php include ('./includes/bannerContainer.php'); ?>
+
+        
 </body>
 </html>
