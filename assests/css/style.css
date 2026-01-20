@@ -252,10 +252,6 @@ body {
   width: 100%;
 }
 
-.photoimgbanner1 {
-  padding-top: 50px;
-}
-
 .bannerContainer2 {
   background-color: #00aff0;
 }
@@ -279,10 +275,12 @@ body {
 }
 .bannerConatiner4 {
   width: 100%;
+  padding: 50px;
   background-image: url("../images/Group\ 42.png") !important;
   background-size: cover; /* cover whole div */
   background-position: center;
   background-repeat: no-repeat;
+  /* background-color: red; */
 }
 
 .Inner1Container4 {
@@ -562,5 +560,153 @@ ul li {
 }
 .big-menu-icon {
   font-size: 25px !important; /* increase as needed */
+  cursor: pointer;
+}
+
+/* Navigation arrows */
+/* .owl-nav button {
+  position: absolute;
+  top: 95%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5) !important;
+  color: #fff !important;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.owl-nav .owl-prev {
+  left: 90%;
+}
+
+.owl-nav .owl-next {
+  right: 10%;
+} */
+
+/* Dots (pagination like image) */
+.photoimgbanner1 {
+  position: relative;
+}
+
+/* White line */
+.whiteborderline {
+  position: absolute;
+  bottom: -30px;
+  left: 40%;
+  transform: translateX(-50%);
+  background-color: white;
+  width: 75%;
+  height: 2px;
+  z-index: 2;
+}
+.arrowleft {
+  position: absolute;
+  bottom: -47px;
+
+  left: 90%;
+  transform: translateX(-50%);
+
+  z-index: 2;
+}
+.arrowright {
+  position: absolute;
+  bottom: -47px;
+
+  left: 95%;
+  transform: translateX(-50%);
+
+  z-index: 2;
+}
+/* Owl dots */
+.hero-carousel .owl-dots {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+  margin-top: 0px !important;
+  bottom: -65px;
+}
+
+/* Dot styling */
+.hero-carousel .owl-dot span {
+  background: #fff !important;
+  opacity: 0.5;
+}
+
+.hero-carousel .owl-dot.active span {
+  opacity: 1;
+}
+.arrowleft,
+.arrowright {
+  cursor: pointer;
+}
+
+/* Owl dots */
+.announcementslide .owl-dots {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+  margin-top: 0px !important;
+  bottom: -20px;
+  /* background-color: red; */
+}
+.Announcementarrowleft {
+  position: absolute;
+  bottom: -30px;
+
+  left: 45%;
+  transform: translateX(-50%);
+
+  z-index: 2;
+  cursor: pointer;
+}
+.Announcementarrowright {
+  position: absolute;
+  bottom: -30px;
+
+  left: 55%;
+  transform: translateX(-50%);
+
+  z-index: 2;
+  cursor: pointer;
+}
+.img-card {
+  position: relative;
+  border-radius: 16px;
+  transition: transform 0.3s ease;
+}
+
+.responsive-img {
+  border-radius: 16px;
+  transition: transform 0.3s ease;
+}
+
+.img-card::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -55px;
+  width: 70%;
+  height: 18px;
+  background: rgb(56, 58, 59);
+  border-radius: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.img-card:hover {
+  transform: scale(1.1);
+}
+
+.img-card:hover::after {
+  opacity: 1;
+}
+
+.img-card:hover img {
+  transform: scale(1.05);
   cursor: pointer;
 }

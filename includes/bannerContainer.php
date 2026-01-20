@@ -19,19 +19,37 @@
     <div class="bgBannerImgSec">
         <img src="../assests/images/backgroundImgBanner.png" alt="Banner Background">
         <div class="InnerImgContent">
-            <div class="container ">
+            <div class="container">
                 <div class="row  sdfsdfdsf g-3">
-                    <div class="col-lg-9 photoimgbanner1">
-                        <div>
-                            <img src="../assests/images/bannerphoto1.png" class="img-fluid w-100" />
+                    <div class="col-12 col-lg-9 col-md-8 photoimgbanner1 pt-lg-5">
+                        <div class="hero-carousel owl-carousel owl-theme">
+                            <div class="item">
+                                <img src="../assests/images/bannerphoto1.png" class="img-fluid ">
+                            </div>
+                            <div class="item">
+                                <img src="../assests/images/bannerphoto1.png" class="img-fluid">
+                            </div>
+                            <div class="item">
+                                <img src="../assests/images/bannerphoto1.png" class="img-fluid">
+                            </div>
+
+
                         </div>
+                        <div class="whiteborderline">
+
+                        </div>
+                        <img src="../assests/images/Arrow W-01 1.png" class="img-fluid  arrowright " />
+                        <img src="../assests/images/Arrow W-01 2.png" class="img-fluid arrowleft" />
+
+
                     </div>
-                    <div class="col-lg-3 pt-2 imgbanner2">
 
-                        <div>
-                            <img src="../assests/images/NITI AIM Logo_supported by  White Logo 1.png" />
+                    <div class="col-12 col-md-4 col-lg-3  mt-lg-0 mt-5 imgbanner2">
 
-                        </div>
+
+                        <img src="../assests/images/NITI AIM Logo_supported by  White Logo 1.png" class="img-fluid" />
+
+
                     </div>
                 </div>
 
@@ -43,12 +61,12 @@
 
 </div>
 <div class="bannerContainer2">
-  <div class="container-fluid d-flex justify-content-center
+    <div class="container-fluid d-flex justify-content-center
               p-4 p-lg-2">
-    <p class="paracontent">
-      23rd Edition – AGRI INTEX 2025 India’s Prime Agricultural Trade Fair by CODISSIA Thu, 10 Jul, 2025 at 10:00 am - Mon, 14 Jul, 2025 at 023rd Edition – AGRI INTEX 2025 India’s Prime Agricultural Trade Fair by CODISSIA Thu, 10 Jul, 2025 at 0
-    </p>
-  </div>
+        <p class="paracontent">
+            23rd Edition – AGRI INTEX 2025 India’s Prime Agricultural Trade Fair by CODISSIA Thu, 10 Jul, 2025 at 10:00 am - Mon, 14 Jul, 2025 at 023rd Edition – AGRI INTEX 2025 India’s Prime Agricultural Trade Fair by CODISSIA Thu, 10 Jul, 2025 at 0
+        </p>
+    </div>
 </div>
 
 
@@ -80,26 +98,28 @@
 
 
 <div class="bannerConatiner4 mt-2">
-    <div class="ImgConnatiner4 pt-2 pb-2">
-        <div class="InnerContainer4">
-            <div class="Inner1Container4 mt-2">
-                <div class="tabsSty">
 
-                    <div class="bgcolorTabs">
-                        <p class="wordingsContent">New Announcement</p>
-                    </div>
-                    <div class=" bgcolorTabs2">
-                        <p class="wordingsContent">Events</p>
-                    </div>
-                </div>
 
+    <div class="Inner1Container4 mt-2 pt-2">
+        <div class="tabsSty">
+
+            <div class="bgcolorTabs">
+                <p class="wordingsContent">New Announcement</p>
             </div>
-            <div class="container sfgs mt-5">
-                <p class="titleBannwe4">New Announcement</p>
+            <div class=" bgcolorTabs2">
+                <p class="wordingsContent">Events</p>
             </div>
+        </div>
+
+    </div>
+    <div class="container sfgs mt-2">
+        <p class="titleBannwe4">New Announcement</p>
+    </div>
 
 
-            <div class="container">
+    <div class="container photoimgbanner1 pt-2">
+        <div class="hero-carousel owl-carousel owl-theme announcementslide">
+            <div class="item">
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="cardCoontainer4">
@@ -147,16 +167,71 @@
 
 
                 </div>
-
             </div>
 
+            <div class="item">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="cardCoontainer4">
 
-            <div class="container pagination mt-4 ">
-                <img src="../assests/images/Group 44.png" class="img-fluid" />
+                            <p class="heading px-5 pt-3">
+                                APRIL
+                            </p>
+                            <p class="smallheading pt-2 px-3">CDIIC - Quality Policy</p>
 
+                            <p class="paracontent pt-3 px-3">CODISSIA Defence Innovation and Atal Incubation Centre, we are committed to delight our customers. 1. Excellence: We will strive for excellence in all our services and processes 2. Continuous Improvement: We regularly focused our requirements and quality management system to ensure continual improvement 3.</p>
+                            <p class="paracontent pt-3 px-3 pb-5">Read More</p>
+                        </div>
+
+
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="cardCoontainer4">
+
+                            <p class="heading px-5 pt-3">
+                                APRIL
+                            </p>
+                            <p class="smallheading pt-2 px-3">CDIIC - Quality Policy</p>
+
+                            <p class="paracontent pt-3 px-3">CODISSIA Defence Innovation and Atal Incubation Centre, we are committed to delight our customers. 1. Excellence: We will strive for excellence in all our services and processes 2. Continuous Improvement: We regularly focused our requirements and quality management system to ensure continual improvement 3.</p>
+                            <p class="paracontent pt-3 px-3 pb-5">Read More</p>
+                        </div>
+
+
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="cardCoontainer4">
+
+                            <p class="heading px-5 pt-3">
+                                APRIL
+                            </p>
+                            <p class="smallheading pt-2 px-3">CDIIC - Quality Policy</p>
+
+                            <p class="paracontent pt-3 px-3">CODISSIA Defence Innovation and Atal Incubation Centre, we are committed to delight our customers. 1. Excellence: We will strive for excellence in all our services and processes 2. Continuous Improvement: We regularly focused our requirements and quality management system to ensure continual improvement 3.</p>
+                            <p class="paracontent pt-3 px-3 pb-5">Read More</p>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
             </div>
         </div>
+
+        <img src="../assests/images/Arrow W-01 1.png" class="img-fluid Announcementarrowright  " />
+        <img src="../assests/images/Arrow W-01 2.png" class="img-fluid Announcementarrowleft" />
+
     </div>
+
+
+    <!-- <div class="container pagination mt-4 ">
+                <img src="../assests/images/Group 44.png" class="img-fluid" />
+
+            </div> -->
+
+
 
 </div>
 
@@ -207,7 +282,7 @@
                 </div>
             </div>
         </div>
-<div class="col-lg-6 mt-3 mt-lg-0">
+        <div class="col-lg-6 mt-3 mt-lg-0">
             <img src="../assests/images/Mask group (1).png" class="img-fluid w-100 h-75" />
         </div>
 
@@ -224,30 +299,40 @@
 
     <div class="container mt-5 mb-5">
         <div class="row gap-5 ">
-<div class="col-lg-2 d-flex justify-content-center">
-                
+            <div class="col-lg-2 ">
+                <div class="img-card d-flex justify-content-center">
                     <img src="../assests//images/Group 48.png" class="img-fluid responsive-img" />
-                
+                </div>
+
+
+
             </div>
-<div class="col-lg-2 d-flex justify-content-center">
-                <div class="sdfsdf d-flex justify-content-center">
-                    <img src="../assests//images/Group 52.png" class="img-fluid responsive-img" />
+            <div class="col-lg-2 ">
+                <div class="img-card d-flex justify-content-center">
+
+                    <img src="../assests//images/Group 38.png" class="img-fluid responsive-img" />
                 </div>
             </div>
-<div class="col-lg-2 d-flex justify-content-center">
-                
+            <div class="col-lg-2 ">
+                <div class="img-card d-flex justify-content-center">
+
                     <img src="../assests//images/Group 54.png" class="img-fluid responsive-img" />
-                
+                </div>
+
             </div>
-<div class="col-lg-2 d-flex justify-content-center">
-                
+            <div class="col-lg-2 ">
+                <div class="img-card d-flex justify-content-center">
+
+
                     <img src="../assests//images/Group 58.png" class="img-fluid responsive-img" />
-            
+                </div>
             </div>
-<div class="col-lg-2 d-flex justify-content-center">
-            
+            <div class="col-lg-2 ">
+                <div class="img-card d-flex justify-content-center">
+
+
                     <img src="../assests//images/Group 60.png" class="img-fluid responsive-img" />
-                
+                </div>
             </div>
         </div>
 
@@ -260,10 +345,10 @@
 </div>
 <div class="container mt-5">
     <div class="row ">
-        <div class="col-lg-5 d-flex justify-content-center justify-content-lg-end align-items-center">
-            <img src="../assests/images/freepik__an-indian-man-35-years-old-black-hair-in-a-suit-po__93024 1.png" class="img-fluid h-75" />
+        <div class="col-lg-6 d-flex justify-content-center justify-content-lg-start align-items-start">
+            <img src="../assests/images/freepik__an-indian-man-35-years-old-black-hair-in-a-suit-po__93024 1.png" class="img-fluid h-75 w-100" />
         </div>
-        <div class="col-lg-7">
+        <div class="col-lg-6">
             <ul>
                 <li>Requirement Coordination & Project Management for Indigenization between All Defence Forces, DPSUs & Reginal MSME's</li>
                 <li>Memberships, News Letters and Events to Outreach messages to all CDIIC members of our Defence corridor</li>
@@ -375,31 +460,31 @@
                     <p>Download News Letter</p>
                 </div>
 
-             <div class="subscriptioninbox">
-                   <div class="emailInput">
-                            <p class="spaceletter"></p>
-                    <p class="spaceletter">Subscription Email Letter</p>
-                   
-                
+                <div class="subscriptioninbox">
+                    <div class="emailInput">
+                        <p class="spaceletter"></p>
+                        <p class="spaceletter">Subscription Email Letter</p>
+
+
+                    </div>
+                    <img src="../assests/images/Group 29.png" class="img-fluid h-75 pt-2" />
                 </div>
-                 <img src="../assests/images/Group 29.png" class="img-fluid h-75 pt-2"/>
-             </div>
             </div>
 
         </div>
 
 
-   <div class="row   d-flex justify-content-between align-items-center py-2 pb-5">
-  <!-- Left Column -->
-  <div class="col-12  col-lg-6 d-flex align-items-center">
-    <p class="cpyrightpara mb-0">Copyright © 2020 CDIIC. All rights reserved.</p>
-  </div>
+        <div class="row   d-flex justify-content-between align-items-center py-2 pb-5">
+            <!-- Left Column -->
+            <div class="col-12  col-lg-6 d-flex align-items-center">
+                <p class="cpyrightpara mb-0">Copyright © 2020 CDIIC. All rights reserved.</p>
+            </div>
 
-  <!-- Right Column -->
-  <div class="col-12 col-lg-6 d-flex justify-content-lg-start justify-content-lg-end  align-items-center pt-2 pt-lg-0">
-    <p class="cpyrightpara mb-0">Privace & Policy - Terms - About us - FAQ</p>
-  </div>
-</div>
+            <!-- Right Column -->
+            <div class="col-12 col-lg-6 d-flex justify-content-lg-start justify-content-lg-end  align-items-center pt-2 pt-lg-0">
+                <p class="cpyrightpara mb-0">Privace & Policy - Terms - About us - FAQ</p>
+            </div>
+        </div>
 
     </div>
 
