@@ -292,7 +292,7 @@ body {
   background-color: white;
   border-radius: 25px;
   display: flex;
-  width: 300px;
+  /* width: 300px; */
 
   align-items: center; /* optional safety */
 }
@@ -304,16 +304,16 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 200px;
-  padding: 10px;
+  /* width: 200px; */
+  padding: 5px 20px;
 }
 
 .bgcolorTabs2 {
-  width: 100px;
+  /* width: 100px; */
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px;
+  padding: 5px 20px;
 }
 
 .tabsSty p {
@@ -380,11 +380,40 @@ body {
   color: #06065c;
   font-size: 30px;
   font-weight: bold;
-  display: inline-block;
-  border-bottom: 2px solid #06065c;
+  position: relative;
+  /* display: inline-block; */
   padding-bottom: 10px;
+  text-transform: uppercase;
 }
 
+.DefenceTitle::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 60%; /* increase line length */
+  height: 2px;
+  background-color: #06065c;
+}
+.DefenceTitle1 {
+  color: #06065c;
+  font-size: 30px;
+  font-weight: bold;
+  position: relative;
+  /* display: inline-block; */
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.DefenceTitle1::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 80%; /* increase line length */
+  height: 2px;
+  background-color: #06065c;
+}
 ul li {
   margin-bottom: 10px;
   text-decoration: none;
@@ -400,17 +429,22 @@ ul li {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px;
-  border-radius: 10px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  color: red;
+  cursor: pointer;
+}
+.Btn:hover {
+  background-color: red;
+  color: white;
 }
 
 .Btn p {
   margin: 0;
 }
-.btntitle {
-  font-weight: bold;
-  color: red;
-}
+
 .BannerContainer6 {
   width: 100%;
   background-image: url("../images/Group\ 47.png") !important;
@@ -473,9 +507,18 @@ ul li {
   color: white;
   font-size: 30px;
   font-weight: bold;
-  display: inline-block;
-  border-bottom: 2px solid white;
+  /* border-bottom: 2px solid white; */
   padding-bottom: 10px;
+  position: relative;
+}
+.UsefulLiks::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 70%; /* increase line length */
+  height: 2px;
+  background-color: white;
 }
 .footerpara {
   color: white;
@@ -591,7 +634,7 @@ ul li {
 /* White line */
 .whiteborderline {
   position: absolute;
-  bottom: -30px;
+  bottom: 20px;
   left: 40%;
   transform: translateX(-50%);
   background-color: white;
@@ -601,16 +644,16 @@ ul li {
 }
 .arrowleft {
   position: absolute;
-  bottom: -47px;
+  bottom: 8px;
 
-  left: 90%;
+  left: 87%;
   transform: translateX(-50%);
 
   z-index: 2;
 }
 .arrowright {
   position: absolute;
-  bottom: -47px;
+  bottom: 8px;
 
   left: 95%;
   transform: translateX(-50%);
@@ -625,7 +668,7 @@ ul li {
   justify-content: center;
   z-index: 1;
   margin-top: 0px !important;
-  bottom: -65px;
+  bottom: -10px;
 }
 
 /* Dot styling */
@@ -677,21 +720,24 @@ ul li {
   position: relative;
   border-radius: 16px;
   transition: transform 0.3s ease;
+  /* background-color: red; */
 }
 
 .responsive-img {
   border-radius: 16px;
   transition: transform 0.3s ease;
+  padding: 0 15px; /* creates gap */
 }
 
 .img-card::after {
   content: "";
   position: absolute;
   left: 50%;
-  bottom: -55px;
+  bottom: -60px;
   width: 70%;
   height: 18px;
-  background: rgb(56, 58, 59);
+  /* background: rgb(56, 58, 59); */
+  background-color: rgba(0, 0, 0, 0.452);
   border-radius: 50%;
   transform: translateX(-50%);
   opacity: 0;
@@ -699,7 +745,7 @@ ul li {
 }
 
 .img-card:hover {
-  transform: scale(1.1);
+  transform: scale(1);
 }
 
 .img-card:hover::after {
@@ -707,6 +753,15 @@ ul li {
 }
 
 .img-card:hover img {
-  transform: scale(1.05);
+  transform: scale(1.1);
   cursor: pointer;
+}
+.owl-carousel .owl-stage-outer {
+  padding: 60px 0px !important;
+  /* background-color: red; */
+}
+.contentborder {
+  height: 5px;
+  background-color: black;
+  width: 100%;
 }

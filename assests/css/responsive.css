@@ -114,7 +114,7 @@
   }
   .whiteborderline {
     position: absolute;
-    bottom: -30px;
+    bottom: 20px;
     left: 35%;
     transform: translateX(-50%);
     background-color: white;
@@ -124,7 +124,7 @@
   }
   .arrowleft {
     position: absolute;
-    bottom: -47px;
+    bottom: 8px;
 
     left: 85%;
     transform: translateX(-50%);
@@ -133,7 +133,7 @@
   }
   .arrowright {
     position: absolute;
-    bottom: -47px;
+    bottom: 8px;
 
     left: 95%;
     transform: translateX(-50%);
@@ -269,9 +269,39 @@
     color: #06065c;
     font-size: 20px;
     font-weight: bold;
-    display: inline-block;
-    border-bottom: 1px solid #06065c;
-    padding-bottom: 5px;
+    position: relative;
+    /* display: inline-block; */
+    padding-bottom: 10px;
+    text-transform: uppercase;
+  }
+
+  .DefenceTitle::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 60%; /* increase line length */
+    height: 2px;
+    background-color: #06065c;
+  }
+  .DefenceTitle1 {
+    color: #06065c;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    /* display: inline-block; */
+    padding-bottom: 10px;
+    text-transform: uppercase;
+  }
+
+  .DefenceTitle1::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 80%; /* increase line length */
+    height: 2px;
+    background-color: #06065c;
   }
   ul li {
     margin-bottom: 10px;
@@ -373,6 +403,23 @@
 
     z-index: 2;
     cursor: pointer;
+  }
+  .UsefulLiks {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    /* border-bottom: 2px solid white; */
+    padding-bottom: 10px;
+    position: relative;
+  }
+  .UsefulLiks::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 120%; /* increase line length */
+    height: 2px;
+    background-color: white;
   }
 }
 
@@ -482,9 +529,39 @@
     color: #06065c;
     font-size: 20px;
     font-weight: bold;
-    display: inline-block;
-    border-bottom: 1px solid #06065c;
-    padding-bottom: 5px;
+    position: relative;
+    /* display: inline-block; */
+    padding-bottom: 10px;
+    text-transform: uppercase;
+  }
+
+  .DefenceTitle::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 60%; /* increase line length */
+    height: 2px;
+    background-color: #06065c;
+  }
+  .DefenceTitle1 {
+    color: #06065c;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    /* display: inline-block; */
+    padding-bottom: 10px;
+    text-transform: uppercase;
+  }
+
+  .DefenceTitle1::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%; /* increase line length */
+    height: 2px;
+    background-color: #06065c;
   }
   ul li {
     margin-bottom: 10px;
@@ -530,8 +607,11 @@
   .oraganisationcontent {
     font-size: 14px;
   }
+  .wordingsContent {
+    font-size: 10px;
+  }
   .footerAddress {
-    font-size: 17px;
+    font-size: 14px;
     color: white;
     text-transform: uppercase;
   }
@@ -539,9 +619,18 @@
     color: white;
     font-size: 20px;
     font-weight: bold;
-    display: inline-block;
-    border-bottom: 1px solid white;
-    padding-bottom: 5px;
+    /* border-bottom: 2px solid white; */
+    padding-bottom: 10px;
+    position: relative;
+  }
+  .UsefulLiks::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 120%; /* increase line length */
+    height: 2px;
+    background-color: white;
   }
   .footerpara {
     color: white;
@@ -579,7 +668,7 @@
   /* White line */
   .whiteborderline {
     position: absolute;
-    bottom: -15px;
+    bottom: 20px;
     left: 40%;
     transform: translateX(-50%);
     background-color: white;
@@ -589,7 +678,7 @@
   }
   .arrowleft {
     position: absolute;
-    bottom: -27px;
+    bottom: 8px;
     width: 25px;
     left: 85%;
     transform: translateX(-50%);
@@ -598,9 +687,8 @@
   }
   .arrowright {
     position: absolute;
-    bottom: -27px;
+    bottom: 8px;
     width: 25px;
-
     left: 95%;
     transform: translateX(-50%);
 
@@ -652,6 +740,30 @@
     z-index: 2;
     cursor: pointer;
   }
+  .Btn {
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight: bold;
+    color: red;
+    cursor: pointer;
+  }
+  .Btn:hover {
+    background-color: red;
+    color: white;
+  }
+
+  .Btn p {
+    margin: 0;
+  }
+  .footer-logo {
+    height: 100px;
+    width: 40%;
+  }
 }
 
 @media (max-width: 358px) {
@@ -676,6 +788,34 @@
   }
   .owl-theme .owl-dots .owl-dot {
     width: 14px !important;
+  }
+  .whiteborderline {
+    position: absolute;
+    bottom: 20px;
+    left: 40%;
+    transform: translateX(-50%);
+    background-color: white;
+    width: 75%;
+    height: 2px;
+    z-index: 2;
+  }
+  .arrowleft {
+    position: absolute;
+    bottom: 8px;
+
+    left: 85%;
+    transform: translateX(-50%);
+
+    z-index: 2;
+  }
+  .arrowright {
+    position: absolute;
+    bottom: 8px;
+
+    left: 95%;
+    transform: translateX(-50%);
+
+    z-index: 2;
   }
 
   .announcementslide .owl-dots {
@@ -709,5 +849,22 @@
 
     z-index: 2;
     cursor: pointer;
+  }
+  .UsefulLiks {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    /* border-bottom: 2px solid white; */
+    padding-bottom: 10px;
+    position: relative;
+  }
+  .UsefulLiks::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 120%; /* increase line length */
+    height: 2px;
+    background-color: white;
   }
 }

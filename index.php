@@ -12,7 +12,7 @@
         <?php include ('./includes/headerNext.php'); ?>
 
         <?php include ('./includes/bannerContainer.php'); ?>
+                <?php include ('./includes/script.php'); ?>
 
-        
 </body>
 </html>

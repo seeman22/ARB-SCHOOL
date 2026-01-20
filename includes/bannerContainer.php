@@ -60,7 +60,7 @@
 
 
 </div>
-<div class="bannerContainer2">
+<div class="bannerContainer2  mb-lg-5">
     <div class="container-fluid d-flex justify-content-center
               p-4 p-lg-2">
         <p class="paracontent">
@@ -71,7 +71,7 @@
 
 
 
-<div class="bannerConatiner3 mt-3">
+<div class="bannerConatiner3 mt-3 mt-lg-5 pt-lg-5 pb-lg-5  ">
     <div class="container">
 
         <div class="row">
@@ -87,7 +87,11 @@
 
                 <p class="wordingsContent p-2 p-lg-0">CODISSIA Defence Innovation and Atal Incubation Centre (CDIIC) is a not-for-profit Section 8 company established under the Companies Act, 2013 on 10th January, 2019 by its founding association – CODISSIA (The Coimbatore District Small Industries Association) in Coimbatore, Tamil Nadu. It is supported by Atal Innovation Mission, NITI Aayog and Ministry of Defence, Government of India.</p>
                 <p class="wordingsContent p-2 p-lg-0">Coimbatore is one of the five nodal points of the Southern Corridor identified for the development of the Defence Sector. CDIIC is the first Defence Innovation Hub to be set up in India, following the announcement of the Defence Innovation Organisation set up under iDEX (Innovations for Defence Excellence). CDIIC is also one of the Atal Incubation Centres established under the Atal Innovation Mission.</p>
-
+                <div class="btnread">
+                    <div class="Btn">
+                        <p class="">Read More</p>
+                    </div>
+                </div>
             </div>
 
         </div>
@@ -97,7 +101,7 @@
 
 
 
-<div class="bannerConatiner4 mt-2">
+<div class="bannerConatiner4 mt-2 mt-lg-5 pt-lg-5 pb-lg-5">
 
 
     <div class="Inner1Container4 mt-2 pt-2">
@@ -237,7 +241,7 @@
 
 
 
-<div class="container bannerContainerTitle5 mt-2 ">
+<div class="container bannerContainerTitle5 mt-2 mt-lg-5 pt-lg-5  pb-lg-5 ">
     <p>CDIIC has the following as its main objectives</p>
     <div class="px-3 py-3 pt-3 brandimg">
         <img src="../assests/images/Group 46.png" class="img-fluid " width="70%" />
@@ -268,7 +272,7 @@
 <div class="container defenceContent mt-2">
     <div class="row">
         <div class="col-lg-6">
-            <p class="DefenceTitle">Atal Incubation Centre</p>
+            <p class="DefenceTitle1">Atal Incubation Centre</p>
             <ul>
                 <li>Supporting innovative technology-based startup enterprises in India.</li>
                 <li>Establish a high-class incubation facility, including but not limited to: (a) suitable physical infrastructure and operating facilities, and (b) affiliations with sectoral experts.</li>
@@ -283,7 +287,7 @@
             </div>
         </div>
         <div class="col-lg-6 mt-3 mt-lg-0">
-            <img src="../assests/images/Mask group (1).png" class="img-fluid w-100 h-75" />
+            <img src="../assests/images/Mask group (4).png" class="img-fluid w-100" />
         </div>
 
     </div>
@@ -291,7 +295,7 @@
 </div>
 
 
-<div class="BannerContainer6 pb-5">
+<div class="BannerContainer6 mt-5 pb-5">
     <div class="pt-5 container containerTitlePlatform">
         <p class="platformtitle">CDIIC – Platform</p>
 
@@ -299,39 +303,41 @@
 
     <div class="container mt-5 mb-5">
         <div class="row gap-5 ">
-            <div class="col-lg-2 ">
-                <div class="img-card d-flex justify-content-center">
-                    <img src="../assests//images/Group 48.png" class="img-fluid responsive-img" />
+            <div class="owl-carousel">
+                <div class="item img-card">
+                    <div class=" d-flex justify-content-center">
+                        <img src="../assests//images/Group 48.png" class="img-fluid responsive-img" />
+                    </div>
+
+
+
                 </div>
+                <div class="item img-card">
+                    <div class=" d-flex justify-content-center">
 
-
-
-            </div>
-            <div class="col-lg-2 ">
-                <div class="img-card d-flex justify-content-center">
-
-                    <img src="../assests//images/Group 38.png" class="img-fluid responsive-img" />
+                        <img src="../assests//images/Group 38.png" class="img-fluid responsive-img" />
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-2 ">
-                <div class="img-card d-flex justify-content-center">
+                <div class="item img-card">
+                    <div class="d-flex justify-content-center">
 
-                    <img src="../assests//images/Group 54.png" class="img-fluid responsive-img" />
+                        <img src="../assests//images/Group 54.png" class="img-fluid responsive-img" />
+                    </div>
+
                 </div>
-
-            </div>
-            <div class="col-lg-2 ">
-                <div class="img-card d-flex justify-content-center">
+                <div class="item img-card">
+                    <div class="d-flex justify-content-center">
 
 
-                    <img src="../assests//images/Group 58.png" class="img-fluid responsive-img" />
+                        <img src="../assests//images/Group 58.png" class="img-fluid responsive-img" />
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-2 ">
-                <div class="img-card d-flex justify-content-center">
+                <div class="item img-card">
+                    <div class="d-flex justify-content-center">
 
 
-                    <img src="../assests//images/Group 60.png" class="img-fluid responsive-img" />
+                        <img src="../assests//images/Group 60.png" class="img-fluid responsive-img" />
+                    </div>
                 </div>
             </div>
         </div>
@@ -340,15 +346,15 @@
 
 </div>
 
-<div class="container supportConatiner mt-5">
+<div class="container supportConatiner mt-5 mt-lg-5">
     <h2 class="platformtitle">Support at CDIIC</h2>
 </div>
-<div class="container mt-5">
+<div class="container pt-3 p-lg-5">
     <div class="row ">
-        <div class="col-lg-6 d-flex justify-content-center justify-content-lg-start align-items-start">
-            <img src="../assests/images/freepik__an-indian-man-35-years-old-black-hair-in-a-suit-po__93024 1.png" class="img-fluid h-75 w-100" />
+        <div class="col-lg-6    d-flex justify-content-center justify-content-lg-start align-items-start">
+            <img src="../assests/images/Mask group (3).png" class="img-fluid " />
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 pt-2">
             <ul>
                 <li>Requirement Coordination & Project Management for Indigenization between All Defence Forces, DPSUs & Reginal MSME's</li>
                 <li>Memberships, News Letters and Events to Outreach messages to all CDIIC members of our Defence corridor</li>
@@ -365,6 +371,14 @@
     </div>
 
 </div>
+<div class="container-fluid mt-5   mb-5  d-flex justify-content-end">
+   
+    <div class="col-8 contentborder">
+
+    </div>
+</div>
+
+
 <div class="container Organisation">
     <p class="platformtitle">CODISSIA – Parent Organisation of CDIIC</p>
 
@@ -388,7 +402,7 @@
         <div class="row pt-5">
             <div class="col-lg-4 pt-2">
                 <div>
-                    <img src="../assests/images/CDIIC LOGO-12-01 1.png" />
+                 <a href="index.php">   <img src="../assests/images/CDIIC LOGO-12-01 1.png" class="img-fluid footer-logo" /></a>
                 </div>
 
                 <div class="pt-5">
