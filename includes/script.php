@@ -48,13 +48,13 @@ $(document).ready(function () {
 
 </script>
 
-   <script>
+   <!-- <script>
 $(document).ready(function () {
     $('.owl-carousel').owlCarousel({
         loop: true,
         // margin: 20,
         autoplay: true,
-        autoplayTimeout: 1000,
+        autoplayTimeout: 2000,
         autoplayHoverPause: false,
         responsive: {
             0: { items: 2 },
@@ -63,4 +63,4 @@ $(document).ready(function () {
         }
     });
 });
-</script>
+</script> -->

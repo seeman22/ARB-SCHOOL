@@ -447,17 +447,24 @@ ul li {
 
 .BannerContainer6 {
   width: 100%;
-  background-image: url("../images/Group\ 47.png") !important;
-  background-size: cover; /* cover whole div */
+  min-height: 800px;
+  background-image: url("../images/Group 47.png");
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  position: relative;
 }
 .containerTitlePlatform {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: relative;
+  z-index: 3;
+  text-align: center;
 }
 
+.platformtitle {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 600;
+}
 .supportConatiner {
   display: flex;
   align-items: center;
@@ -634,7 +641,7 @@ ul li {
 /* White line */
 .whiteborderline {
   position: absolute;
-  bottom: 20px;
+  bottom: -28px;
   left: 40%;
   transform: translateX(-50%);
   background-color: white;
@@ -644,7 +651,7 @@ ul li {
 }
 .arrowleft {
   position: absolute;
-  bottom: 8px;
+  bottom: -45px;
 
   left: 87%;
   transform: translateX(-50%);
@@ -653,7 +660,7 @@ ul li {
 }
 .arrowright {
   position: absolute;
-  bottom: 8px;
+  bottom: -45px;
 
   left: 95%;
   transform: translateX(-50%);
@@ -668,7 +675,7 @@ ul li {
   justify-content: center;
   z-index: 1;
   margin-top: 0px !important;
-  bottom: -10px;
+  bottom: -65px;
 }
 
 /* Dot styling */
@@ -716,52 +723,103 @@ ul li {
   z-index: 2;
   cursor: pointer;
 }
+
+/* .expand-row {
+  display: flex;
+  height: 500px;
+  overflow: hidden;
+}
+
 .img-card {
-  position: relative;
-  border-radius: 16px;
-  transition: transform 0.3s ease;
-  /* background-color: red; */
+  flex: 1;
+  overflow: hidden;
+  cursor: pointer;
+  transition: flex 0.5s ease;
+  padding-right: 10px;
 }
 
-.responsive-img {
-  border-radius: 16px;
-  transition: transform 0.3s ease;
-  padding: 0 15px; /* creates gap */
-}
+.img-card .cd {
 
-.img-card::after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  bottom: -60px;
-  width: 70%;
-  height: 18px;
-  /* background: rgb(56, 58, 59); */
-  background-color: rgba(0, 0, 0, 0.452);
-  border-radius: 50%;
-  transform: translateX(-50%);
-  opacity: 0;
-  transition: opacity 0.3s ease;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .img-card:hover {
-  transform: scale(1);
-}
+  flex: 5;
+  width: 100%;
+  
+} */
 
-.img-card:hover::after {
-  opacity: 1;
-}
-
-.img-card:hover img {
-  transform: scale(1.1);
-  cursor: pointer;
-}
-.owl-carousel .owl-stage-outer {
-  padding: 60px 0px !important;
-  /* background-color: red; */
-}
 .contentborder {
   height: 5px;
   background-color: black;
   width: 100%;
+}
+.gtyrtyrt {
+  display: flex;
+  width: 50%;
+  height: 500px;
+  gap: 10px;
+}
+
+.item {
+  flex: 1; /* default equal width */
+  transition: flex 0.4s ease; /* smooth animation */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  height: 100%;
+  cursor: pointer;
+}
+/* When hovering over the container */
+.gtyrtyrt:hover .item {
+  flex: 0.8; /* shrink all items */
+}
+
+/* Expand only the hovered item */
+.gtyrtyrt .item:hover {
+  flex: 4; /* grow hovered item */
+}
+
+.item1 {
+  background-image: url("../images/Group\ 48.png");
+  position: relative;
+}
+.item2 {
+  background-image: url("../images/Group\ 38.png");
+  position: relative;
+}
+.item3 {
+  background-image: url("../images/Group\ 54.png");
+  position: relative;
+}
+.item4 {
+  background-image: url("../images/Group\ 58.png");
+  position: relative;
+}
+.item5 {
+  background-image: url("../images/Group\ 60.png");
+  position: relative;
+}
+.imagecontentcontainer {
+  background-color: rgba(245, 240, 240, 0.767);
+  height: 150px;
+  width: 100%;
+  top: 10px;
+  position: absolute;
+  visibility: hidden;
+
+  z-index: 5;
+}
+.item:hover .imagecontentcontainer {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+.CDIICplatformimgtitle {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
 }

@@ -114,7 +114,7 @@
   }
   .whiteborderline {
     position: absolute;
-    bottom: 20px;
+    bottom: -31px;
     left: 35%;
     transform: translateX(-50%);
     background-color: white;
@@ -124,7 +124,7 @@
   }
   .arrowleft {
     position: absolute;
-    bottom: 8px;
+    bottom: -50px;
 
     left: 85%;
     transform: translateX(-50%);
@@ -133,7 +133,7 @@
   }
   .arrowright {
     position: absolute;
-    bottom: 8px;
+    bottom: -50px;
 
     left: 95%;
     transform: translateX(-50%);
@@ -668,7 +668,7 @@
   /* White line */
   .whiteborderline {
     position: absolute;
-    bottom: 20px;
+    bottom: -20px;
     left: 40%;
     transform: translateX(-50%);
     background-color: white;
@@ -678,7 +678,7 @@
   }
   .arrowleft {
     position: absolute;
-    bottom: 8px;
+    bottom: -30px;
     width: 25px;
     left: 85%;
     transform: translateX(-50%);
@@ -687,7 +687,7 @@
   }
   .arrowright {
     position: absolute;
-    bottom: 8px;
+    bottom: -30px;
     width: 25px;
     left: 95%;
     transform: translateX(-50%);
@@ -764,6 +764,35 @@
     height: 100px;
     width: 40%;
   }
+  .expand-row {
+    display: flex;
+    height: 500px;
+    overflow: hidden;
+  }
+
+  .img-card {
+    flex: 1;
+    overflow: hidden;
+    cursor: pointer;
+    transition: flex 0.5s ease;
+    padding-right: 10px;
+  }
+
+  .img-card .cd {
+    /* width: 50%; */
+    width: 300px;
+    height: 100%;
+    object-fit: cover;
+  }
+  .cd:hover {
+    width: 100%;
+    height: 100%;
+  }
+  .img-card:hover {
+    flex: 3;
+    width: 100%;
+    /* background-color: #00aff0; */
+  }
 }
 
 @media (max-width: 358px) {
@@ -791,7 +820,7 @@
   }
   .whiteborderline {
     position: absolute;
-    bottom: 20px;
+    bottom: -20px;
     left: 40%;
     transform: translateX(-50%);
     background-color: white;
@@ -801,7 +830,7 @@
   }
   .arrowleft {
     position: absolute;
-    bottom: 8px;
+    bottom: -30px;
 
     left: 85%;
     transform: translateX(-50%);
@@ -810,7 +839,7 @@
   }
   .arrowright {
     position: absolute;
-    bottom: 8px;
+    bottom: -30px;
 
     left: 95%;
     transform: translateX(-50%);

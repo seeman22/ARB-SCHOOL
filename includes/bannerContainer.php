@@ -44,7 +44,7 @@
 
                     </div>
 
-                    <div class="col-12 col-md-4 col-lg-3  mt-lg-0 mt-5 imgbanner2">
+                    <div class="col-12 col-md-4 col-lg-3  mt-lg-0 mt-5 pt-3 imgbanner2">
 
 
                         <img src="../assests/images/NITI AIM Logo_supported by  White Logo 1.png" class="img-fluid" />
@@ -296,55 +296,45 @@
 
 
 <div class="BannerContainer6 mt-5 pb-5">
-    <div class="pt-5 container containerTitlePlatform">
-        <p class="platformtitle">CDIIC – Platform</p>
 
-    </div>
+  <!-- Title -->
+  <div class="container pt-5 containerTitlePlatform">
+    <p class="platformtitle">CDIIC – Platform</p>
+  </div>
 
-    <div class="container mt-5 mb-5">
-        <div class="row gap-5 ">
-            <div class="owl-carousel">
-                <div class="item img-card">
-                    <div class=" d-flex justify-content-center">
-                        <img src="../assests//images/Group 48.png" class="img-fluid responsive-img" />
-                    </div>
-
-
-
-                </div>
-                <div class="item img-card">
-                    <div class=" d-flex justify-content-center">
-
-                        <img src="../assests//images/Group 38.png" class="img-fluid responsive-img" />
-                    </div>
-                </div>
-                <div class="item img-card">
-                    <div class="d-flex justify-content-center">
-
-                        <img src="../assests//images/Group 54.png" class="img-fluid responsive-img" />
-                    </div>
-
-                </div>
-                <div class="item img-card">
-                    <div class="d-flex justify-content-center">
-
-
-                        <img src="../assests//images/Group 58.png" class="img-fluid responsive-img" />
-                    </div>
-                </div>
-                <div class="item img-card">
-                    <div class="d-flex justify-content-center">
-
-
-                        <img src="../assests//images/Group 60.png" class="img-fluid responsive-img" />
-                    </div>
-                </div>
-            </div>
+  <!-- Image Row -->
+  <div class="container-fluid d-flex justify-content-center mt-5 mb-5">
+    <div class="gtyrtyrt">
+      <div class="item item1">
+        <div class="imagecontentcontainer d-flex justify-content-center align-items-center">
+            <p class="CDIICplatformimgtitle">Identification</p>
         </div>
-
+      </div>
+      <div class="item item2">
+                <div class="imagecontentcontainer d-flex justify-content-center align-items-center">
+            <p class="CDIICplatformimgtitle">Innovation</p>
+        </div>
+      </div>
+      <div class="item item3">
+                <div class="imagecontentcontainer d-flex justify-content-center align-items-center">
+            <p class="CDIICplatformimgtitle">Indigenation</p>
+        </div>
+      </div>
+      <div class="item item4">
+                <div class="imagecontentcontainer d-flex justify-content-center align-items-center">
+            <p class="CDIICplatformimgtitle">Incubation</p>
+        </div>
+      </div>
+      <div class="item item5">
+                <div class="imagecontentcontainer d-flex justify-content-center align-items-center">
+            <p class="CDIICplatformimgtitle">Integration</p>
+        </div>
+      </div>
     </div>
+  </div>
 
 </div>
+
 
 <div class="container supportConatiner mt-5 mt-lg-5">
     <h2 class="platformtitle">Support at CDIIC</h2>
