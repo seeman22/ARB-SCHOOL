@@ -758,9 +758,10 @@ ul li {
 }
 .gtyrtyrt {
   display: flex;
-  width: 50%;
-  height: 500px;
+  width: 40% !important;
+  height: 600px;
   gap: 10px;
+  /* background-color: red; */
 }
 
 .item {

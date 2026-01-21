@@ -2,7 +2,7 @@
     <div class="container-fluid box1">
         <div class="row w-100">
 
-            <div class="col-lg-2 col-md-2 col-3 col-sm-text-center   d-md-flex justify-content-md-end pe-0  ">
+            <div class="col-lg-2 col-md-2 col-3 col-sm-text-center   d-md-flex justify-content-md-end pe-0   ">
                 <img src="../assests/images/cdiic-logo PNG 1.png" class="img-fluid " />
             </div>
 
@@ -45,9 +45,25 @@
             </div>
 
 
-            <div class="offcanvas offcanvas-start togglecolor" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-                <div class="offcanvas-header">
-                    <h5 class="offcanvas-title iconscolor1" id="offcanvasExampleLabel">Offcanvas</h5>
+          
+
+
+        </div>
+    </div>
+</div>
+
+  <div class="offcanvas offcanvas-start togglecolor" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header bg-light">
+                <img src="../assests/images/cdiic-logo PNG 1.png" class="img-fluid h-75 w-25" />
+              <div>
+                                  <p class="titleheader mb-1">
+                    CDIIC - CODISSIA DEFENCE INNOVATION AND ATAL INCUBATION CENTRE
+                </p>
+                <p class="titlesmallcontent mb-0">
+                    Supported by Atal Innovation Mission, NITI Aayog
+                </p>
+              </div>
+
                     <button type="button" class="btn-close toggleexit " data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="container p-3">
@@ -76,8 +92,3 @@
                 </div>
 
             </div>
-
-
-        </div>
-    </div>
-</div>
