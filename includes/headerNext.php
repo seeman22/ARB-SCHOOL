@@ -1,19 +1,21 @@
 <div class="firstconatiner ">
     <div class="container-fluid box1">
-        <div class="row w-100">
+        <div class="row w-100 d-flex justify-center-center align-items-center">
 
-            <div class="col-lg-2 col-md-2 col-3 col-sm-text-center   d-md-flex justify-content-md-end pe-0   ">
+            <div class="col-lg-2 col-md-2 col-3 col-sm-text-center   d-md-flex justify-content-md-end pe-0 pt-lg-5  ">
                 <img src="../assests/images/cdiic-logo PNG 1.png" class="img-fluid " />
             </div>
 
             <!-- <div class="col-lg-7 col-md-10 col-sm-8  d-flex flex-column justify-content-start ps-4 ps-lg-0"> -->
             <div class="col-lg-7 col-md-8 col-8 d-flex flex-column justify-content-center h-100 ">
-                <p class="titleheader mb-1">
+              <div>
+                  <p class="titleheader mb-1">
                     CDIIC - CODISSIA DEFENCE INNOVATION AND ATAL INCUBATION CENTRE
                 </p>
                 <p class="titlesmallcontent mb-0">
                     Supported by Atal Innovation Mission, NITI Aayog
                 </p>
+              </div>
             </div>
 
             <div class="col-lg-3 col-md-12 
@@ -37,7 +39,7 @@
 
 
             <!-- ------------------------toggle -->
-            <div class="col-md-2  col-1 d-lg-none d-flex align-items-start align-items-md-center justify-content-md-center justify-content-end p-0">
+            <div class="col-md-2  col-1  p-0">
 
                 <i class="bi bi-list big-menu-icon" type="button"
                     data-bs-toggle="offcanvas"

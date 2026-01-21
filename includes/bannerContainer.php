@@ -1,4 +1,4 @@
-<div class="bannerConatiner d-none d-lg-flex">
+<div class="bannerConatiner d-none d-lg-flex ">
     <div class="container box2 d-flex flex-wrap justify-content-center gap-5 py-3 px-2 d-md-flex">
         <p class="mb-0 ">Home</p>
         <p class="mb-0">Team</p>
