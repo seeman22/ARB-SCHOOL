@@ -3,6 +3,21 @@
   margin: 0;
   box-sizing: border-box;
 }
+@font-face {
+  font-family: "Acumin";
+  src: url("../fonts/Acumin Variable Concept.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+html,
+body {
+  font-family: "Acumin", sans-serif;
+}
+
+p {
+  margin: 0;
+}
 
 .firstcontainer {
   background-image: url("../images/Group\ 141.png");
@@ -35,7 +50,129 @@
   color: white;
   font-size: 40px;
   font-weight: bold;
+  margin: 0 !important;
+  margin-bottom: 0 !important ;
 }
 .solgan {
   color: white;
+}
+.sfgdghc {
+  height: 50px;
+  position: absolute;
+  top: 150px;
+  width: 100%;
+}
+.headline-border {
+  height: 2px;
+  background: white;
+  position: relative;
+  width: 100;
+}
+
+.nav-item {
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.endline {
+  position: absolute;
+  height: 30px;
+  width: 3px;
+  left: 100%;
+  z-index: 5;
+  background-color: white;
+}
+.highlight {
+  opacity: 1;
+  height: 5px;
+
+  background: orangered;
+  position: absolute;
+
+  transition: left 0.3s ease;
+}
+.item1:hover .highlight {
+  opacity: 0.6;
+}
+.animation-Admission {
+  background-color: #0078ff;
+}
+
+.Admission-content {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+}
+.seconnd-container {
+  height: 1500px;
+  width: 100%;
+  background-color: ghostwhite;
+  position: relative;
+}
+.img1 {
+  /* background-color: red; */
+  position: absolute;
+  top: 150px;
+  left: 150px;
+}
+.img2 {
+  position: absolute;
+  /* background-color: red; */
+  left: 96%;
+}
+.img3 {
+  position: absolute;
+  top: 82%;
+  /* background-color: red; */
+  /* left: 100px;s */
+}
+.img4 {
+  position: absolute;
+  top: 85%;
+  left: 95%;
+}
+.contentSlide {
+  position: absolute;
+  width: 70%;
+  /* background-color: #0078ff; */
+  top: 170px;
+}
+.img-responsive {
+  height: 100% !important;
+  width: 100%;
+  object-fit: cover;
+}
+.third-container {
+  background-image: url("../images/Group\ 141\ \(4\).png");
+  background-size: cover; /* cover whole div */
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 900px;
+  width: 100%;
+}
+.animation-container {
+  /* position: absolute; */
+  /* top: 50px;
+  z-index: 100px; */
+  /* background-color: red; */
+  height: 100px;
+  width: 100%;
+}
+.title-choose {
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+}
+.owl-carousel .item {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.sddff {
+  position: absolute;
+  z-index: 1px;
 }

@@ -5,3 +5,61 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+
+  const items = document.querySelectorAll('.nav-item');
+  const highlight = document.querySelector('.highlight');
+  const nav = document.querySelector('.nav');
+
+  if (!items.length || !highlight || !nav) return;
+
+  function moveHighlight(el) {
+    const rect = el.getBoundingClientRect();
+    const navRect = nav.getBoundingClientRect();
+
+    highlight.style.left = (rect.left - navRect.left) + 'px';
+    highlight.style.width = (rect.width - 10) + 'px'; // 👈 subtract 5px
+  }
+
+  items.forEach(item => {
+    item.addEventListener('mouseenter', () => {
+      moveHighlight(item);
+    });
+
+    item.addEventListener('click', () => {
+      items.forEach(i => i.classList.remove('active'));
+      item.classList.add('active');
+      moveHighlight(item);
+    });
+  });
+
+  // default active
+  moveHighlight(items[0]);
+
+});
+</script>
+
+
+
+<script>
+$(document).ready(function () {
+    $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        dots: true,   // 👈 THIS enables the 3 dots
+        responsive: {
+            0: { items: 1 },
+            600: { items: 3 },
+            1000: { items: 5 }
+        }
+    });
+});
+</script>
