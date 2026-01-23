@@ -13,26 +13,47 @@
     position: relative;
   }
   .img1 {
-    /* background-color: red; */
     position: absolute;
     top: 150px;
     left: 25px;
   }
   .img2 {
     position: absolute;
-    /* background-color: red; */
+
     left: 92%;
   }
   .img3 {
     position: absolute;
     top: 74%;
-    /* background-color: red; */
+
     /* left: 100px;s */
   }
   .img4 {
     position: absolute;
     top: 84%;
     left: 92%;
+  }
+  .choose-para {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .chair-person {
+    background-color: #04132a;
+  }
+
+  .title-chairperson {
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  .chairperson-container {
+    /* background-color: #ff6600; */
+    width: 80%;
+  }
+  .Name-para {
+    font-size: 25px;
+    color: white;
   }
 }
 @media (max-width: 992px) {
@@ -49,7 +70,6 @@
     font-weight: bold;
   }
   .img1 {
-    /* background-color: red; */
     position: absolute;
     top: 150px;
     left: 1px;
@@ -57,15 +77,12 @@
   }
   .img2 {
     position: absolute;
-    /* background-color: red; */
     left: 89%;
   }
   .img3 {
     position: absolute;
     top: 68%;
     height: 180px;
-    /* background-color: red; */
-    /* left: 100px;s */
   }
   .img4 {
     position: absolute;
@@ -73,10 +90,24 @@
     left: 91%;
   }
   .seconnd-container {
-    /* height: 600px; */
     width: 100%;
     background-color: ghostwhite;
     position: relative;
+  }
+  .footer-school-name {
+    color: white;
+    font-size: 22px !important;
+    font-weight: bold;
+    margin: 0 !important;
+    margin-bottom: 0 !important ;
+  }
+  .solgan {
+    color: white;
+  }
+  .footer-title {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
   }
 }
 
@@ -100,7 +131,7 @@
     margin-bottom: 0 !important ;
   }
   .seconnd-container {
-    /* height: 1200px; */
+    height: 750px;
     width: 100%;
     /* background-color: red; */
     position: relative;
@@ -108,9 +139,45 @@
   }
   .contentSlide {
     position: absolute;
-
+    width: 75%;
     top: 40px;
     padding: 0px 10px;
+  }
+  .powered-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    /* margin: 40px 0; */
+  }
+
+  .powered-gallery {
+    flex: 1;
+    height: 4px;
+    background-color: black;
+  }
+
+  .powered-title {
+    color: #08254f;
+    font-size: 20px;
+    margin: 0;
+    white-space: nowrap;
+    font-weight: bold;
+  }
+  .footer-school-name {
+    color: white;
+    font-size: 17px !important;
+    font-weight: bold;
+    margin: 0 !important;
+    margin-bottom: 0 !important ;
+  }
+  .solgan {
+    color: white;
+  }
+  .footer-title {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
   }
 }
 
@@ -130,8 +197,8 @@
     font-weight: bold;
   }
   .seconnd-container {
-    /* height: 700px;
-    width: 100%; */
+    height: 1200px;
+    width: 100%;
     /* background-color: red; */
     position: relative;
     /* overflow: hidden; */
@@ -139,7 +206,109 @@
   .contentSlide {
     position: absolute;
 
-    top: 100px;
+    top: 20px;
+    padding: 0px 10px;
+  }
+
+  .chair-person {
+    background-color: #04132a;
+  }
+
+  .title-chairperson {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .chairperson-container {
+    /* background-color: #ff6600; */
+    width: 80%;
+  }
+  .Name-para {
+    font-size: 20px;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 474px) {
+  .firstcontainer {
+    background-image: url("../images/Group\ 141.png");
+    background-size: cover; /* cover whole div */
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;
+    position: relative;
+  }
+  .Admission-content {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .seconnd-container {
+    height: 900px;
+    width: 100%;
+    /* background-color: red; */
+    position: relative;
+    /* overflow: hidden; */
+  }
+  .contentSlide {
+    position: absolute;
+
+    top: 30px;
+    padding: 0px 10px;
+  }
+  .hero-carousel {
+    position: relative;
+  }
+
+  .hero-carousel .owl-dots {
+    position: absolute;
+    top: 80%;
+    /* left: 10px; */
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: end !important;
+    width: 100%;
+  }
+  .overlay-content {
+    position: absolute;
+    bottom: 10px; /* ABOVE DOTS */
+    left: 10px;
+    color: #fff;
+    z-index: 2;
+  }
+
+  .overlay-content h4 {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 374px) {
+  .firstcontainer {
+    background-image: url("../images/Group\ 141.png");
+    background-size: cover; /* cover whole div */
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;
+    position: relative;
+  }
+  .Admission-content {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .seconnd-container {
+    height: 850px;
+    width: 100%;
+    /* background-color: red; */
+    position: relative;
+    /* overflow: hidden; */
+  }
+  .contentSlide {
+    position: absolute;
+    width: 85%;
+
+    top: 20px;
     padding: 0px 10px;
   }
 }

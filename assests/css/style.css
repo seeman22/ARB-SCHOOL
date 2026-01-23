@@ -150,29 +150,237 @@ p {
   background-size: cover; /* cover whole div */
   background-position: center;
   background-repeat: no-repeat;
-  height: 900px;
+
   width: 100%;
 }
-.animation-container {
-  /* position: absolute; */
-  /* top: 50px;
-  z-index: 100px; */
-  /* background-color: red; */
-  height: 100px;
-  width: 100%;
-}
+
 .title-choose {
   color: white;
   font-size: 35px;
   font-weight: bold;
 }
-.owl-carousel .item {
-  background: rgba(255, 255, 255, 0.2);
-  color: white;
+.choose-carousel .item {
+  /* background: rgba(255, 255, 255, 0.2); */
   padding: 20px;
+  text-align: start;
+}
+
+.choose-carousel .item img {
+  width: 100%;
+  height: auto;
+}
+
+.owl-dots.disabled {
+  display: flex !important;
+}
+.choose-carousel .owl-dots {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.choose-carousel .owl-dots .owl-dot.active span {
+  background: #ff6600 !important;
+  height: 17px !important;
+  width: 17px !important;
+}
+
+.choose-carousel .owl-dot span {
+  background-color: white !important;
+  height: 17px !important;
+  width: 17px !important;
+}
+.fsgd {
+  /* height: 20px; */
+  width: 100%;
+  /* background-color: #ff6600; */
+}
+.btnnn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fd4e22 !important;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+.btnnn p {
+  margin: 0;
+}
+.choose-para {
+  color: white;
+  font-size: 27px;
+  font-weight: bold;
+}
+.chair-person {
+  background-color: #04132a;
+}
+
+.title-chairperson {
+  color: white;
+  font-size: 45px;
+  font-weight: bold;
+}
+.chairperson-container {
+  /* background-color: #ff6600; */
+  width: 80%;
+}
+.Name-para {
+  font-size: 35px;
+  color: white;
+}
+.Gallery-container {
+  background-image: url("../images/gallery/Group\ \(11\).png");
+  background-size: cover; /* cover whole div */
+  background-position: center;
+  background-repeat: no-repeat;
+  /* height: 300px; */
+  width: 100%;
+}
+.gallery-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  /* margin: 40px 0; */
+}
+
+.border-gallery {
+  flex: 1;
+  height: 4px;
+  background-color: black;
+}
+
+.Gallery-title {
+  color: #08254f;
+  font-size: 30px;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.video-wrapper {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.video-wrapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.play-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.powered-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  /* margin: 40px 0; */
+}
+
+.powered-gallery {
+  flex: 1;
+  height: 4px;
+  background-color: black;
+}
+
+.powered-title {
+  color: #08254f;
+  font-size: 30px;
+  margin: 0;
+  white-space: nowrap;
+  font-weight: bold;
+}
+.powered-container {
+  /* background-color: red; */
+  /* height: 20px; */
+  width: 80%;
+}
+.poweredby-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.poweredby-row .logo {
+  flex: 1; /* all equal width */
   text-align: center;
 }
-.sddff {
+.powered-two-container {
+  width: 70%;
+}
+.footer-container {
+  background-color: #04132a;
+  /* height: 200px; */
+}
+.container-footer {
+  width: 85%;
+}
+
+.footer-school-name {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0 !important;
+  margin-bottom: 0 !important ;
+}
+.solgan {
+  color: white;
+}
+.footer-title {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.hero-carousel {
+  position: relative;
+}
+
+.hero-carousel .owl-dots {
   position: absolute;
-  z-index: 1px;
+  top: 90%;
+  /* left: 10px; */
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: end !important;
+  width: 100%;
+}
+
+.hero-carousel .owl-dot {
+  margin: 6px 0;
+}
+
+.hero-carousel .owl-dot span {
+  width: 10px;
+  height: 10px;
+  background: #fff;
+  display: block;
+  border-radius: 50%;
+}
+
+.hero-carousel .owl-dot.active span {
+  background: #ff6600 !important;
+}
+.overlay-content {
+  position: absolute;
+  bottom: 40px; /* ABOVE DOTS */
+  left: 30px;
+  color: #fff;
+  z-index: 2;
+}
+
+.overlay-content h4 {
+  margin: 0;
+}
+.innerimgcontent {
+  position: relative;
 }
