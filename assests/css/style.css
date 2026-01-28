@@ -16,7 +16,7 @@ body {
 }
 
 p {
-  margin: 0;
+  margin: 0 !important;
 }
 
 .firstcontainer {
@@ -107,7 +107,7 @@ p {
   font-weight: bold;
 }
 .seconnd-container {
-  height: 1500px;
+  height: 1200px;
   width: 100%;
   background-color: ghostwhite;
   position: relative;
@@ -207,7 +207,7 @@ p {
 }
 .choose-para {
   color: white;
-  font-size: 27px;
+  font-size: 25px;
   font-weight: bold;
 }
 .chair-person {
@@ -224,7 +224,7 @@ p {
   width: 80%;
 }
 .Name-para {
-  font-size: 35px;
+  font-size: 30px;
   color: white;
 }
 .Gallery-container {
@@ -383,4 +383,171 @@ p {
 }
 .innerimgcontent {
   position: relative;
+}
+.Achievement {
+  width: 85%;
+}
+.overlaypara {
+  font-size: 15px !important;
+  color: white;
+}
+/* ===== MAIN CONTAINER ===== */
+.sdzdgg {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+
+/* ===== MARQUEE COLUMNS ===== */
+.sdzdgg marquee {
+  flex: 1; /* equal width columns */
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* ===== CARD (IMAGE + TEXT) ===== */
+.imgCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0; /* ONLY vertical spacing */
+}
+
+/* ===== IMAGE CIRCLE ===== */
+.imgWrapper {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #eee;
+}
+
+/* ===== IMAGE FIT ===== */
+.imgWrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ===== TEXT BELOW IMAGE ===== */
+.textWrapper {
+  margin-top: 6px;
+  text-align: center;
+}
+
+/* ===== NAME ===== */
+.Student-title {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #000;
+}
+
+/* ===== POSITION ===== */
+.depart {
+  margin: 0;
+  font-size: 12px;
+  color: #666;
+}
+.toggleimglogo {
+  width: 120px !important;
+  height: 95px !important;
+}
+.toggleimglogo {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+/* OFFCANVAS BACKGROUND */
+.togglecolor {
+  background: linear-gradient(180deg, #0d2b5b, #133b7a);
+  color: #fff;
+}
+
+/* HEADER */
+.custom-header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 15px;
+}
+
+/* SCHOOL TITLE */
+.School-title {
+  line-height: 1.2;
+}
+
+.school-title {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.school-tagline {
+  font-size: 10px;
+  margin: 0;
+  opacity: 0.85;
+  color: white;
+}
+
+/* MENU LIST */
+.menu-list {
+  padding-top: 20px;
+}
+
+.menu-list p {
+  padding: 12px 15px;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+/* HOVER EFFECT */
+.menu-list p:hover {
+  background: rgba(255, 255, 255, 0.15);
+  padding-left: 22px;
+}
+
+/* CONTACT SECTION */
+.contact-section {
+  padding: 15px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+  padding: 6px 0;
+}
+
+.contact-item i {
+  font-size: 16px;
+  color: #ffcc00;
+}
+
+/* CLOSE BUTTON COLOR */
+.btn-close-white {
+  filter: invert(1);
+}
+.btnpara {
+  color: white;
+}
+/* Initial hidden state */
+.reveal {
+  opacity: 0;
+  transform: translateY(80px);
+  transition: all 0.8s ease-in-out;
+}
+
+/* When visible */
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
 }
