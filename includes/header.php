@@ -4,7 +4,7 @@
             <div class="container innerFrst-banner mt-2">
                 <div class="d-flex justify-content-center align-items-center dfgdgg">
                     <div class="logo">
-                        <img src="../assests/images/Logo 1.png" class="img-fluid" />
+                        <img src="../assests/images/Logo 1.png" class="img-fluid logoresponsivesize" />
                     </div>
                     <div class="School-title">
                         <p class="school-name">ARB INTERNATIONAL SCHOOL</p>
@@ -12,19 +12,19 @@
                     </div>
                 </div>
 
-                <div class="justify-content-center align-items-center d-none d-sm-flex p-2 ">
+                <div class="justify-content-center align-items-center d-none d-lg-flex p-2 ">
                     <div class="row d-flex justify-content-center align-items-center">
                         <div class="col-2 col-g-1 d-flex justify-content-end">
                             <i class="bi bi-telephone-fill solgan"></i>
 
                         </div>
                         <div class="col-10 col-lg-5">
-                            <p class=" solgan">+91 96550 19000</p>
+                            <p class="solgan">+91 96550 19000</p>
 
                         </div>
 
 
-                        <div class="col-2 col-lg-1">
+                        <div class="col-2 col-lg-1 d-flex justify-content-end">
                             <i class="bi bi-envelope-fill solgan"></i>
 
                         </div>
@@ -42,7 +42,7 @@
                 </div>
 
 
-                <div class="d-flex d-sm-none justify-content-center align-items-center">
+                <div class="d-flex d-lg-none justify-content-center align-items-center">
                     <i class="bi bi-list big-menu-icon"
                         style="color: white;"
                         type="button"
@@ -53,7 +53,7 @@
             </div>
 
 
-            <div class="d-none justify-content-center align-items-center d-sm-flex">
+            <div class="d-none justify-content-center align-items-center d-lg-flex">
 
                 <div class="container sfgdghc p-3">
 
@@ -95,14 +95,8 @@
                     </div>
 
                 </div>
-
-
             </div>
         </div>
-
-
-
-
 
 
 </header>

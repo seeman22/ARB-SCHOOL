@@ -66,7 +66,7 @@ p {
   height: 2px;
   background: white;
   position: relative;
-  width: 100;
+  width: 100%;
 }
 
 .nav-item {
@@ -392,19 +392,59 @@ p {
   color: white;
 }
 /* ===== MAIN CONTAINER ===== */
-.sdzdgg {
+.Achievement-imgcontainer {
   display: flex;
   width: 100%;
-  height: 500px;
+  height: 550px;
   overflow: hidden;
 }
 
-/* ===== MARQUEE COLUMNS ===== */
-.sdzdgg marquee {
-  flex: 1; /* equal width columns */
-  width: 100%;
-  margin: 0;
-  padding: 0;
+.column {
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+}
+
+.track {
+  display: flex;
+  flex-direction: column;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.column.up .track {
+  animation-name: scrollUp;
+}
+
+.column.down .track {
+  animation-name: scrollDown;
+}
+
+@keyframes scrollUp {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-50%);
+  }
+}
+
+@keyframes scrollDown {
+  from {
+    transform: translateY(-50%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+/* your existing card styles */
+.imgCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
 }
 
 /* ===== CARD (IMAGE + TEXT) ===== */
@@ -479,6 +519,7 @@ p {
 }
 
 .school-title {
+  color: white;
   font-size: 14px;
   font-weight: 700;
   margin: 0;
@@ -550,4 +591,12 @@ p {
 .reveal.active {
   opacity: 1;
   transform: translateY(0);
+}
+.copyright {
+  background-color: #06214b;
+  padding: 10px;
+  color: white;
+}
+.atcolor {
+  color: #464646;
 }
